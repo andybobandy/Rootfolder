@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	background-color: #D9E2E9
+}
+p {
+	font-family: sans-serif;
+	line-height: 1.6;
+	padding: 0 2em 0 2em;
+	max-width: auto;
+	/*background-color: #eee;*/
+}
+
+h2 {
+	color: white;
+}
+
+h3 {
+	padding-top: 5%;
+	padding-left: 5%;
+	text-transform: uppercase;
+	color: white;
+}
+
+h5 {
+	padding: 2em;
+}
+
+h6 {
+	padding-left: 3em;
+}
+
+.liste {
+	padding-left: 2em;
+}
+
+.grid {
+	padding: 2em;
+}
+
+.box {
+	border: 1px solid #95999C;
+	box-shadow: 1px 1px #888888;
+}
+
+.omsorg {
+	background-color: red;
+	padding-top: 5%;
+	padding-left: 5%;
+}
+
+.løsningen {
+	background-color: blue;
+}
+
+.app {
+	padding-left: 5%;
+	padding-top: 5%;
+	background-color: pink;
+}
+
+.brukertesting {
+	background-color: green;
+}
+
+.design {
+	background-color: red;
+}
+
+.kilder {
+	background-color: purple;
+}
+
+
+@media screen and (min-width: 736px)
+}

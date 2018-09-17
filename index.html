@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Omsorg</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		.grid {
+			display:grid;
+			grid-template-columns: 1000px 300px;
+			grid-column-gap: 1em;
+			grid-row-gap: 2em;
+			/*grid-auto-rows: 100px;*/
+			grid-auto-rows: minmax(100px, auto);
+		}
+
+		.a {
+			grid-row-start: 2;
+		}
+
+		.b {
+			grid-row-start: 2;
+			margin-right: 2em;
+		}
+
+		.c {
+			grid-row-start: 3;
+		}
+
+		.d {
+			grid-row-start: 4;
+		}
+
+		.e {
+			grid-row-start: 5;
+		}
+
+		.f {
+			grid-row-start: 6;
+		}
+
+		.g {
+			grid-row-start: 7;
+			grid-column-gap: 1em;
+		}
+
+		.grid > div {
+		background:#F2F2F2;
+		/*padding:1em;*/
+		}
+		
+	</style>
+</head>
+<body>
+	<div>
+		<header>
+			<img src="legemedipadtransparent.png">
+			<h6 class="tekstforside">OMSORG</h6>
+		</header>
+	</div>
+	<div class="grid">
+		<div class="box a">
+			<h2 class="omsorg"><img src="logo.png" width="270px"></h2>
+			<br><h5>Omsorg bryter språkbarrierene mellom pasient og helsepersonell</h5><br>
+			<h6><b>Problemet</b></h6>
+			<br><p>Aldri før har så mange pasienter hatt behov for oversetting i norsk helsevesen. Arbeidsinnvandrere, flyktninger og innvandrere med manglende norskkunnskaper øker. 4,1 % av Norges befolkning har flyktningbakgrunn, disse utgjør 30% av alle innvandrere. Flyktningestrømmen vi har opplevd de siste årene har ført til at mange møter et helsevesen de ikke kan kommunisere med. En slik sårbar gruppe i samfunnet er avhengig av relasjonsbygging og et helsevesenet de har tillit til, som kan ivareta og forstå deres behov. I alle grupper finner vi også mennesker med nedsatt funksjonsevne og analfabeter, eller personer med lav kompetanse i eget morsmål. Dagens løsninger ivaretar ikke disse gruppenes behov for hjelp i form av oversettingsverktøy som er universelt utformet og kultursensitivt.<br><br>
+			Språkbarrierer er et kjent problem i norsk helsevesen. Pasienter som ikke kan norsk eller engelsk får ikke den informasjonen de har rett på. Tolk med tilstrekkelig kompetanse kan være utilgjengelig, og må ofte tilkalles langveis fra. Dagens løsninger for oversetting uten tolk er innviklede, tungvinte og kan skape forvirring mellom pasienten og helsepersonell, ofte i situasjoner hvor informasjon kan være livsviktig. En del av hverdagen til helsearbeidere er å møte personer fra andre kulturer og med annen språkbakgrunn. Språkbarrierer og mangel på kulturell kompetanse kan påvirke pasientens tillit til helsevesenet. <b>Viktigheten av verktøy som sikrer pålitelig kommunikasjon har aldri vært større.</b><br><br>
+			I dag har vi løsninger som tidvis fungerer, men er unødvendig kompliserte. Det kan lett oppstå misforståelser og forvirring. Pekeark, en av dagens mest brukte løsninger, kan være tykke hefter med kolonner full av spørsmål, utsagn og ikoner både på norsk og pasientens foretrukne språk. De er ofte laget spesifikt til hvert enkelt sykehus av ildsjeler i helsevesenet. Oversettelsene er ofte fra Google translate og kan derfor bli misvisende når nøyaktig kommunikasjon er essensielt. Dette er tungvint og utdatert. Det tar også unødvendig lang tid å bla seg igjennom alle arkene for å finne riktig spørsmål, spesielt når tidspress generelt er et problem i helsevesenet.<br><br> Google Translate er altså ofte brukt, men har i mange år vært kjent som en dårlig oversetter. I enkelte situasjoner kan det være livsviktig å finne frem til korrekt informasjon. Translate kan ha problemer med for eksempel liknende ord, og viktige detaljer kan forsvinne i oversettelsen. Da er et essensielt at det finnes forhåndsproduserte og gode oversettelser gjort av fagfolk.<br><br>
+			Tolketjenesten i Norge er veldig god, og Oslo Universitetssykehus vil at tolk primært skal brukes, slik at pasienten får best mulig behandling. Løsningen vi skal presentere senere, skal hovedsakelig brukes i tiden fra tolk er bestilt til ankomst.<br><br>
+			Et av de problemene Oslo universitetssykehus fokuserer på er misforståelser. Ofte opplever de at pasienten og helsearbeideren tror de har forstått hverandre, men så viser det seg på et senere tidspunkt at det har oppfattet beskjeder forskjellig. Informasjon rundt prøvetaking, nye innkallinger og besøkstider går tapt. Det er viktig at slike detaljer ikke forsvinner i oversettelsen. Dagens løsning er mangelfull og gammeldags. Applikasjonen vi skal presentere vil hjelpe helsevesenet i vanskelige situasjoner og sørge for at pasientene får den hjelp og informasjon de har rett på.
+			</p>
+		</div>
+		<div class="box b">	
+			<h2 id="meny">Meny</h2>
+			<li></li></div>
+		<div class="box c">
+			<h3 class="løsningen">Løsningen</h2>
+			<p><br>Omsorg er vår løsning på det omfattende språk- og kulturproblemet i norsk helsevesen. I samarbeid med rådgiver Maja G. Kielland ved Oslo Universitetssykehus, har vi prototypet et kommunikasjonsverktøy som kan bryte språkbarrierene. Applikasjonen er et språkverktøy som hjelper helsepersonell med enkle oversettelser i ulike situasjoner på sykehuset. Et stilrent design gjør at den passer inn på sykehusene, og oppbygging etter prinsipper om universell utforming gjør applikasjonen tilgjengelig for alle.
+			Vi har en interaktiv prototype av vår applikasjon som kan testes her. Prototypen støtter i dag arabisk og norsk. Dersom den blir ferdigutviklet vil den i første omgang støtte 10 forskjellige språk. Alle utsagn og spørsmål som oversettes i applikasjonen er oversatt på forhånd av profesjonelle oversettere. Dette minimerer sannsynligheten for misforståelser. Applikasjonen skal også inneholde informasjon om prøvetaking og hendelser knyttet til den enkelte pasient. Informasjon om mat og besøkstider på den aktuelle avdelingen skal også være tilgjengelig for pasientene på deres morsmål.
+			</p>
+		</div>
+		<div class="box d">
+			<h3 class="app">Om Applikasjonen</h3>
+			<p>Gjennom utviklingsprosessen har det vært et hovedfokus å lage et produkt som alle kan bruke. Universell utforming og klare kontraster har vært viktig. Applikasjonen vår har en innstilling for høykontrast, som kan velges i hamburgermenyen. Da vil alle farger skifte til gul, hvit og sort. Det skal også, på et senere tidspunkt, utvikles en innstilling for svaksynte/blinde. Meningen er at helsearbeidere skal kunne spørre seg gjennom alle kategorier mens pasienten gir tommel opp for ja og tommel ned for nei. Dette sikrer at svaksynte får likeverdig tilgang på verktøyet som andre. Applikasjonen skal lese opp alt som blir trykket på dersom innstillingen «automatisk lyd» er på. Om denne er av, vil ting leses opp dersom man trykker på lydikonet, som finnes på alle kategorier og spørsmål.
+			Vi tar også hensyn til kultursensitivitet. For arabisk, som leses fra høyre, valgt som språk skal hele applikasjonen speilvendes slik at den lettere kan leses og brukes fra høyre side. Ikonene er lagd for at de skal være lette å forstå. Om gjenstandene som er avbildet på ikonene ikke er kjent fra før, vil man kjenne dem igjen etter ett døgn i Norge.
+			</p>
+			<br><h6>Modul 1 - Kommunikasjon</h6><br>
+			<p>Slik ser vår løsning ut. Vi anbefaler at du prøver applikasjonen selv. Husk at dette bare er en prototype og derfor kan ikke alle funksjoner benyttes. De knappene som man kan interagere med vil lyse opp i applikasjonen om du trykker et sted hvor det ikke er noen funksjon. Kommunikasjonsmodulen er selve kjernen i applikasjonen. Her er det lagt opp til toveiskommunikasjon mellom helsearbeidere og pasienter. Både pasient og helsepersonell kan komme med utsagn eller stille spørsmål. Hvem som starter samtalen reguleres ved å trykke på knappen øverst i applikasjonen. Er orienteringen mot legeikonet, vil et spørsmål for eksempel være «Er du tørst?», men står den på pasientikonet vil samme utsagn bli «Jeg er tørst». En samtale vil deretter kunne utvikle seg med utgangspunkt i spørsmålet eller utsagnet. Montasje av en iPad satt opp med vår app. Test vår prototype: Vi har utviklet en interaktiv, nettbasert prototype av Omsorg. Test den ved å trykke på knappen under!</p><br>
+			<h6>Modul 2 - Hendelser</h6><br>
+			<p>For å lagre denne informasjonen på pasienten må helsearbeideren logge inn i applikasjonen og velge sengeposten pasienten ligger på. Alle pasienter som har behov for oversettelse får registrert en bruker mens de ligger på sykehuset. På brukeren lagrer man romnummer og sengepost, matpreferanser, for eksempel halal eller vegansk, allergier og hvilken avdeling de ligger på. Når man er innlogget på en bruker vil fremtidige prøver og hendelser som opprettes lagres i systemet.
+			</p>
+
+		</div>
+		<div class="box e">
+			<h3 class="brukertesting">BRUKERTESTING</h3>
+			<p>Under hele utviklingsprosessen har applikasjonen vært brukertestet. Flere medstudenter har testet applikasjonen underveis og gitt oss verdifulle tilbakemeldinger. Underveis har også Maja fra Oslo Universitetssykehus testet applikasjonen og gitt tilbakemeldinger om deres forventninger. Å ha regelmessig kommunikasjon med oppdragsgiver har vært svært nyttig for utviklingen av produktet.<br><br>
+			Vi brukertestet også produktet vårt på tre sykepleiestudenter. Da de kommer til å bli en av de største brukergruppene av vårt produkt, er det særlig relevant å brukerteste med dem. Tilbakemeldingene vi fikk var gode, applikasjonen var et verktøy det var stort behov for i helsesektoren. Noen hadde allerede i praksis opplevd språkbarrierer, og mente at en slik applikasjon kunne hjulpet dem på veien. Når det kommer til brukergrensesnittet forsto de fleste hvordan applikasjonen skulle brukes, og mente den var relativt intuitiv. Det var noen som hadde problemer med å forstå hvordan innloggingen i modul 2 fungerer, og vi gjorde utifra dette nødvendige endringer i prototypen.</p>
+		</div>
+		<div class="box f">
+			<h3 class="design">DESIGN AV WEBSIDE</h3>
+			<p>Hvilken plattform man velger å bruke nettsiden vår på skal ikke ha noe å si på hvor godt informasjonen formidles. Derfor har vi lagt mye arbeid i å gjøre nettsiden brukervennlig for dataskjermer så vel som mobil og nettbrett.<br><br></p>
+			<ul class="liste">
+				<li>Siden er responsiv, og fungerer like godt på PC-skjerm som en mobil.</li>
+				<li>Siden benytter seg av javascript for bedre brukeropplevelse, men er ikke avhengig av javascript-funksjonalitet for å fungere.</li>
+				<li>Siden fungerer i alle populære browsere (Chrome, FireFox, Edge og Internet Explorer)</li>
+			</ul>
+			<p><br>Vi har hatt stort fokus på tilgjengelighet og brukervennlighet i utforming av nettsiden. Ettersom mange bruker tastaturet til å navigere nettsider på bakgrunn av preferanser eller sykdom, har vi lagt til en navigeringsfunksjon som vises ved første tabuleringstrykk. Her kan man enkelt og raskt komme seg til de diverse delene av nettstedet. funksjonaliteter skal fungere dersom JavaScript blir deaktivert.</p>
+		</div>
+		<div class="box g">
+			<h3 class="kilder"></h3>
+		</div>
+	</div>
+</body>
+</html>
